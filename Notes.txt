@@ -1,0 +1,5 @@
+# topics2 = [{'id': 'feria', 'name': 'Feria', 'match': 'ById'},
+#            {'id': 'betis', 'name': 'Real Betis Balompie', 'match': 'ById'},
+#            {'id': 'sevilla', 'name': 'Sevilla F.C.', 'match': 'ByKeyWords',
+#             'keyWords': ['sevillafc', 'sevilla fc', 'un sevilla', 'l sevilla', 'afc', 'gol', 'futbol', 'fútbol', 'sevillis', 'liga', 'leage', 'uefa']}
+#            ]
