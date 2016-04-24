@@ -1,0 +1,69 @@
+{
+	"sevilla-football": {
+		"title": "Comparativa Sevilla - Betis",
+		"coordinates": {
+			"initial": {
+				"lat": 37.37080519808532,
+				"lng": -5.976133346557617
+			},
+			"limited": {
+				"lat-init": 37.37080519808532,
+				"lng-init": -5.976133346557617,
+				"lat-end": 37.37080519808532,
+				"lng-end": -5.976133346557617
+			}
+		},
+		"topics": [{
+			"key": "betis",
+			"title": "Real Betis",
+			"words": ["betis"]
+		}, {
+			"key": "sevilla",
+			"title": "Sevilla FC",
+			"words": ["sevillafc", "sevilla fc", "un sevilla", "l sevilla", "afc", "sevillis"]
+		}]
+	},
+	"spain-press": {
+		"title": "Prensa digital española",
+		"coordinates": {
+			"initial": {
+				"lat": 37.37080519808532,
+				"lng": -5.976133346557617
+			},
+			"limited": null
+		},
+		"topics": [{
+			"key": "@el_pais",
+			"title": "EL PAIS",
+			"words": ["@el_pais"]
+		}, {
+			"key": "@abc_es",
+			"title": "ABC.es",
+			"words": ["@abc_es"]
+		}, {
+			"key": "@expansioncom",
+			"title": "Expansion com",
+			"words": ["@expansioncom"]
+		}, {
+			"key": "@larazon_es",
+			"title": "La Razón",
+			"words": ["@larazon_es"]
+		}, {
+			"key": "@eldiarioes",
+			"title": "El diario.es",
+			"words": ["@eldiarioes"]
+		}, {
+			"key": "@publico_es",
+			"title": "Twitter oficial del Diario Público",
+			"words": ["@publico_es"]
+		}, {
+			"key": "@elmundoes",
+			"title": "Cuenta oficial del diario El Mundo",
+			"words": ["@elmundoes"]
+		}, {
+			"key": "@LaVanguardia",
+			"title": "La Vanguardia",
+			"words": ["@LaVanguardia"]
+		}]
+	}
+}

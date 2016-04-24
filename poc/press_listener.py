@@ -13,18 +13,18 @@ class FansListener(StreamListener):
         return True
 
     def on_error(self, status):
-        print(status)
+        print('Error:', status)
 
 
 def start():
     # Twitter credentials are stored in a json file
-    with open('credentials.json') as data_file:
+    with open('config/credentials.json') as data_file:
         credentials = json.load(data_file)
 
     # We will record all entries with words 'betis' or 'sevilla' ,
     # Then, we will discard those that are not relevant to the study
     # (Eg "... the University of Sevilla ..." or "... on the street Betis ..."
-
+    print(credentials)
     track_list = ['@el_pais', '@abc_es', '@expansioncom', '@larazon_es', '@eldiarioes', '@publico_es', '@elmundoes', '@LaVanguardia']
     auth = OAuthHandler(credentials["consumer_key"], credentials["consumer_secret"])
     auth.set_access_token(credentials["access_token"], credentials["access_token_secret"])

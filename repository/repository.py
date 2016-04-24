@@ -1,5 +1,7 @@
 from pymongo import MongoClient
-from datetime import datetime
+
+
+# from datetime import datetime
 
 class Repository:
     def __init__(self):
@@ -12,17 +14,8 @@ class Repository:
     def save_many(self, tweets):
         return self.db.tweets.insert_many(tweets)
 
-    def get_coordinates(self):
-        return list(self.db.tweets.find({'coordinates': True},{'sevilla': 1, 'betis': 1, 'feria': 1, 'Lat': 1, 'Lng': 1, '_id': 0}))
+    def get_coordinates(self, survey_id):
+        return list(self.db.tweets.find({'survey': survey_id, 'coordinates': True}, {'sevilla': 1, 'betis': 1, 'feria': 1, 'Lat': 1, 'Lng': 1, '_id': 0}))
 
     def get_totals_by_key(self):
         pass
-
-
-# r = Repository()
-#
-# tweets = r.get_coordinates()
-#
-# for tweet in tweets:
-#     print(tweet)
-
