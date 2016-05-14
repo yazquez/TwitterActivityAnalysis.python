@@ -45,6 +45,19 @@ class TwitterDataLoader():
 
 if __name__ == '__main__':
     print("Init loading...")
-    # TwitterDataLoader("sevilla-football", 'D:/Home/Projects/Twitter/Data/tweets_data7.txt').load_tweets()
     TwitterDataLoader("spain-press", 'D:/Home/Projects/Twitter/Data/data_press0.txt').load_tweets()
+    TwitterDataLoader("spain-press", 'D:/Home/Projects/Twitter/Data/data_press1.txt').load_tweets()
+    TwitterDataLoader("spain-press", 'D:/Home/Projects/Twitter/Data/data_press2.txt').load_tweets()
+    TwitterDataLoader("spain-press", 'D:/Home/Projects/Twitter/Data/data_press3.txt').load_tweets()
+
+    TwitterDataLoader("sevilla-football", 'D:/Home/Projects/Twitter/Data/tweets_data1.txt').load_tweets()
+    TwitterDataLoader("sevilla-football", 'D:/Home/Projects/Twitter/Data/tweets_data2.txt').load_tweets()
+    TwitterDataLoader("sevilla-football", 'D:/Home/Projects/Twitter/Data/tweets_data3.txt').load_tweets()
+    TwitterDataLoader("sevilla-football", 'D:/Home/Projects/Twitter/Data/tweets_data4.txt').load_tweets()
+    TwitterDataLoader("sevilla-football", 'D:/Home/Projects/Twitter/Data/tweets_data5.txt').load_tweets()
+    TwitterDataLoader("sevilla-football", 'D:/Home/Projects/Twitter/Data/tweets_data6.txt').load_tweets()
+    TwitterDataLoader("sevilla-football", 'D:/Home/Projects/Twitter/Data/tweets_data7.txt').load_tweets()
+    TwitterDataLoader("sevilla-football", 'D:/Home/Projects/Twitter/Data/tweets_data8.txt').load_tweets()
+    TwitterDataLoader("sevilla-football", 'D:/Home/Projects/Twitter/Data/tweets_data9.txt').load_tweets()
+    TwitterDataLoader("sevilla-football", 'D:/Home/Projects/Twitter/Data/tweets_data10.txt').load_tweets()
 

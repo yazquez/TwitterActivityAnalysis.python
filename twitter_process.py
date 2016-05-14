@@ -15,7 +15,7 @@ class TwitterDataProcess():
 
     @staticmethod
     def to_dictionary(coordinate):
-        keys = ["Lat", "Lng"]
+        keys = ["lat", "lng"]
         return dict(zip(keys, coordinate))
 
     def check_key_words(self, topic_key, tweet_text):
@@ -32,9 +32,8 @@ class TwitterDataProcess():
         for topic_key in self.topics:
             if self.check_key_words(topic_key, text):
                 tweet_valid = True
-                tweet[topic_key] = True
-            else:
-                tweet[topic_key] = False
+                tweet["topic"] = topic_key
+                break
         if tweet_valid:
             tweet['survey'] = self.survey
             tweet['text'] = text
